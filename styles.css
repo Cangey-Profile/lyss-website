@@ -1,0 +1,162 @@
+body {
+    background: rgb(54, 57, 61);
+    margin: 0;
+    overflow-x: hidden;
+    margin-bottom: 15px !important;
+}
+
+html * {
+    margin: 0;
+    font-family: Sans-Serif !important;
+}
+
+div {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.custom-shape-divider-top-1621050991 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621050991 svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 227px;
+}
+
+.custom-shape-divider-top-1621050991 .shape-fill {
+    fill: #ffffff;
+}
+
+.title {
+    font-size: 1.75em;
+    left: 2.5em;
+    top: 2.5em;
+    position: relative;
+}
+
+.buttons {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.buttons button:hover {
+    background-color: #111111
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.dark {
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 20em;
+    background: #ffffff;
+}
+
+button {
+    background-color: #69f086;
+    border: none;
+    color: rgb(22, 25, 26);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3em;
+
+}
+
+.buttoninv {
+    font-size: 0.75em;
+    background-color: #7289DA;
+}
+
+.buttoninv:hover {
+    background-color: #526ac0;
+}
+
+.buttoninv span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.divider {
+    width: 1em;
+    height: auto;
+    display: inline-block;
+}
+
+@keyframes moveup1 {
+    0% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 100;
+    }
+}
+
+@keyframes moveup2 {
+    0% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 100;
+    }
+}
+
+
+@keyframes moveup3 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 1em;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.centerdiv {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
